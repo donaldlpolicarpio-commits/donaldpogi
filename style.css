@@ -1,0 +1,328 @@
+html{
+	overflow:scroll;
+	
+	
+}
+
+::-webkit-scrollbar {
+	width:20px;
+	
+	
+}
+
+::-webkit-scrollbar-thumb {
+	background:#B4C5E4;
+	transition:1.5s;
+	
+	
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:#090C9B;
+	
+	
+	
+}
+
+
+
+
+body{
+	margin:0px;
+	padding:0px
+	
+	
+	
+}
+
+#navt > h2{
+	padding-left:25px;
+	color:white;
+	text-shadow:5px 5px 5px black;
+	font-family: "Inter", sans-serif;
+	transition:1s;
+}
+
+#navt > h2:hover{
+	text-shadow:5px 5px 5px #B4C5E4;
+	
+}
+
+#navt{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	height:100px;
+	background-color:#090C9B;
+	
+	border-bottom:solid black 2px;
+}
+
+#opt{
+	margin-right:25px;
+	
+}
+
+#opt > a{
+	margin-left:25px;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family: "Inter", sans-serif;
+	font-weight:bold;
+	transition: 0.5s;
+}
+
+#opt > a:hover{
+	
+	background-color:#3D52D5;
+	padding:10px;
+	border-radius:15px;
+	
+	
+}
+
+img{
+	height:300px;
+	width:300px;
+	margin-left:25px;
+	
+	
+	
+}
+
+#pg{
+	
+	display:flex;	
+	flex-direction:column;
+	padding-left: 50px;
+	font-family: "Inter", sans-serif;
+	
+
+}
+
+#pg > h2{
+	
+	color:black;
+	margin-top:100px;
+	margin-left:10px;
+	font-size:50px;
+	transition:1s;
+	text-shadow: 2px 2px 5px black;
+}
+
+#pg > h2:hover{
+	
+	color:#090C9B;
+	text-shadow: -2px -2px 5px cyan;
+}
+
+#pg > p{
+	font-size:25px;
+	margin-left:10px;
+	font-weight:bold;
+	
+}
+#section1{
+	display:flex;
+	margin-top:25px;
+	padding-bottom:100px;
+	
+	
+}
+i{
+	margin-right:5px;
+	
+	
+}
+
+#section2 > h2 {
+	
+	color:black;
+	font-size:45px;
+	margin-left:25px;
+	
+	
+	
+}
+
+#sec2h{
+	background-color:#090C9B;
+	text-align:center;
+	height:100px;
+	
+}
+
+#sec2h > h2{
+	color:white;
+	padding-top:30px;
+	font-family: "Inter", sans-serif;
+	text-shadow: 5px 5px 5px black;
+	font-size:30px;
+}
+
+
+
+#card{
+	display:flex;
+	justify-content:space-around;
+	padding-top:100px;
+	padding-bottom:100px;
+	
+}
+
+#drum{
+	background-color:#B4C5E4;
+	padding:15px;
+	border-radius:10px;
+	font-size:35px;
+	font-family: "Inter", sans-serif;
+	box-shadow: 10px 10px 5px black;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	
+	transition:0.5s;
+}
+
+#code{
+	background-color:#B4C5E4;
+	padding:15px;
+	border-radius:10px;
+	font-size:35px;
+	font-family: "Inter", sans-serif;
+	box-shadow: 10px 10px 5px black;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	
+	transition:0.5s;
+}
+
+#cook{
+	background-color:#B4C5E4;
+	padding:15px;
+	border-radius:10px;
+	font-size:35px;
+	font-family: "Inter", sans-serif;
+	box-shadow: 10px 10px 5px black;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	
+	transition:0.5s;
+}
+
+#drum:hover{
+	background-color:#3D52D5;
+	padding:40px;
+	border-radius:10px;
+	font-weight:bold;
+	text-shadow: -4px -4px 5px cyan;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	
+}
+
+#code:hover{
+	background-color:#3D52D5;
+	padding:40px;
+	border-radius:10px;
+	font-weight:bold;
+	text-shadow: -4px -4px 5px cyan;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+}
+
+#cook:hover{
+	background-color:#3D52D5;
+	padding:40px;
+	border-radius:10px;
+	font-weight:bold;
+	text-shadow: -4px -4px 5px cyan;
+	
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	
+}
+
+
+#sec3h{
+	background-color:#090C9B;
+	text-align:center;
+	height:100px;
+	
+	
+}
+
+
+#sec3h > h2{
+	padding-top:30px;
+	color:white;
+	font-family: "Inter", sans-serif;
+	font-size:30px;
+}
+
+#social{
+	background-color:#F9DEC9;
+	margin:50px;
+	padding:50px;
+	border-radius:20px;
+	box-shadow:5px 5px 5px black;
+	
+}
+#social > a {
+	
+	text-decoration:none;
+	font-size:50px;
+	font-family: "Inter", sans-serif;
+	font-weight:bold;
+	color:black;
+	padding-bottom:10px;
+	text-shadow: 2px 2px 5px black;
+	
+	display:flex;
+	transition:0.5s;
+}
+
+#social > a:hover {
+	
+	text-shadow: -4px -4px 5px cyan;
+	
+}
+
+#social > h2{
+	
+	font-family: "Inter", sans-serif;
+	text-shadow: 5px 5px 5px black;
+	font-size:50px;
+	transition:0.5s;
+}
+
+#social > h2:hover {
+	
+	 text-shadow: -4px -4px 5px cyan;
+	
+}
+
+#social > h3{
+	
+	font-family: "Inter", sans-serif;
+	text-shadow: 5px 5px 5px black;
+	font-size:50px;
+	transition:0.5s;
+}
+
+#social > h3:hover {
+	
+	 text-shadow: -4px -4px 5px cyan;
+	
+}
